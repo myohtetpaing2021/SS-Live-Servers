@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>MyoHtetPaing-MC</title>
+    <link rel="shortcut icon" type="image/jpg" href="https://github.com/user-attachments/assets/fa83cbd8-006c-4260-ae4b-2c7fc67d21c7"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+          integrity="sha256-7ZWbZUAi97rkirk4DcEp4GWDPkWpRMcNaEyXGsNXjLg=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.29.0/themes/prism.min.css"
+          integrity="sha256-ko4j5rn874LF8dHwW29/xabhh8YBleWfvxb8nQce4Fc=" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote-lite.min.js"></script>
+    <style>
+        code {
+            font-family: monospace;
+        }
+
+        .note-editor .dropdown-toggle::after { all: unset } .note-editor .note-dropdown-menu { box-sizing: content-box } .note-editor .note-modal-footer { box-sizing: content-box }
+        .note-editable {
+            background-color: white !important;
+            color: black !important;
+        }
+
+    </style>
+</head>
+
+<body class="user-select-none">
+
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand">
+            <!--suppress CheckImageSize -->
+            <img src="https://github.com/user-attachments/assets/fa83cbd8-006c-4260-ae4b-2c7fc67d21c7" alt="" width="50" height="50" class="d-inline-block align-text-center">
+            <span class="ps-3 fw-semibold">MyoHtetPaingMC</span>
+            <a target="_blank" class="float-end btn btn-outline-primary" href="https://t.me/shayshayblack">Contact
+                Developer</a>
+        </a>
+    </div>
+</nav>
+
+<div class="container-fluid">
+
+    <div class="d-flex align-content-end flex-wrap gap-3">
+
+        <div class="btn-group dropdown-menu-lg-end">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="labs" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Telegram Channels
+            </button>
+
+            <ol class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><small class="dropdown-item-text">💠Joine Channels💠</small></li>
+                <li><a target="_blank" class="dropdown-item"
+                       href="https://t.me/shayshayblack">
+                    {𝟙} 🏡ONLY/:FORYOU&ALL
+                </a></li>
+                <li><a target="_blank" class="dropdown-item"
+                       href="https://t.me/shayshayblack">
+                    {𝟚} 🏡FOR ALL OF YOU
+                </a></li>
+                <li>
+                    <hr class="dropdown-divider">
+                </li>
+            </ol>
+
+        </div>
+
+        <div class="text-nowrap">
+             <a target="_blank" class="btn btn-primary" href="http://176.126.84.252:5032/"> SSH Web Panel </a>
+         </div>
+    </div>
+
+    <div oninput="generateShellCode()" class="row g-2 mt-2">
+
+        <div class="col-6 col-md-3 col-lg-2">
+            <label for="edtUsername" class="form-label">💠Username</label>
+            <input spellcheck="false" type="text" class="form-control" id="edtUsername"
+                   placeholder="MyoHtetPaingMC" value="MyoHtetPaingMC">
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+            <label for="edtPassword" class="form-label">💠Password</label>
+            <input spellcheck="false" type="text" class="form-control" id="edtPassword"
+                   placeholder="MyoHtetPaingMC" value="MyoHtetPaingMC">
+        </div>
+        <div class="col-6 col-md-3 col-lg-2">
+            <label for="edtLimit" class="form-label">💠Login Limit</label>
+            <input spellcheck="false" type="text" class="form-control" id="edtLimit"
+                   placeholder="300" value="300">
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2">
+            <label for="edtDay" class="form-label">💠Expire Date(Day)</label>
+            <input spellcheck="false" type="text" class="form-control" id="edtDay"
+                   placeholder="30" value="30">
+        </div>
+        <div class="col-12">
+            <label for="edtMessage" class="form-label">💠Server message💠</label>
+            <textarea spellcheck="false" type="text" class="form-control" id="edtMessage"
+                      placeholder="Server message">
+                <h3 style="text-align: center;">
+<font color="#FF0059">▬</font><font color="#F1006F">▬</font><font color="#E30085">▬</font><font color="#D6009B">▬</font><font color="#C800B1">▬</font><font color="#BB00C7">✿</font><font color="#AD00DD">S▪</font><font color="#9F00F3">S</font><font color="#9F00F3">▪H</font><font color="#AD00DD">✿</font><font color="#BB00C7">▬</font><font color="#C800B1">▬</font><font color="#D6009B">▬</font><font color="#E30085">▬</font><font color="#F1006F">▬</font><br>
+<font color="#F5FE00"><b> ꔷꔷꔷ ✿ ᴘʀᴇᴍɪᴜᴍ ꜱᴇʀᴠᴇʀ ✿ ꔷꔷꔷ </b></font><br>
+<font color="red">☆☆ ᴛᴇʀᴍ ᴏꜰ ꜱᴇʀᴠɪᴄᴇ ☆☆</font><br>
+<font color="#20CDCC"><b>ɴᴏ ꜱᴘᴀᴍ           </b></font><br>
+<font color="#10C7E5"><b>ɴᴏ ᴅᴅᴏꜱ           </b></font><br>
+<font color="#00C1FF"><b>ɴᴏ ʜᴀᴄᴋɪɴɢ ᴀɴᴅ ᴄᴀʀᴅɪɴɢ</b></font><br>
+<font color="#E51369"><b>ᴍᴜʟᴛɪ ʟᴏɢɪɴ ʙᴀɴɴᴇᴅ</b></font><br>
+<font color="red"><b> S-S-B </b></font><br>
+<font color="#F1006F"><b>╔══╗</b></font><br><font color="#E30085"><b>╚╗╔╝</b></font><br><font color="#D6009B"><b>&nbsp; &nbsp; &nbsp; ╔╝(¯°v°¯)</b></font><b><br><font color="#C800B1"><b>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;╚══°.¸.°</b></font><b><br>
+<font color="#00FF00"><b>☎️ Contact Telegram - t.me/shayshayblack ☎️</b></font><br>
+<font color="#FF0059">▬</font><font color="#F1006F">▬</font><font color="#E30085">▬</font><font color="#D6009B">▬</font><font color="#C800B1">▬</font><font color="#BB00C7">✿</font><font color="#AD00DD">S▪</font><font color="#9F00F3">S</font><font color="#9F00F3">▪H</font><font color="#AD00DD">✿</font><font color="#BB00C7">▬</font><font color="#C800B1">▬</font><font color="#D6009B">▬</font><font color="#E30085">▬</font><font color="#F1006F">▬</font></b></b><p></p></h3><h1 style="text-align:center"><span style="color:#3942cf">☆Singapore</span>&nbsp;<font color="#FF0000"> Server</font><span style="color:#d31680">☆</span></h1></font><h1 style="text-align:center"><big><big><big><big><big><big><big><big><big> 🇲🇲</font><h2 style="text-align:center"><font color="RED">📚NEVER STOP LEARNING📚</font></h2>
+            </textarea>
+        </div>
+
+    </div>
+
+    <div class="alert border clearfix mt-3">
+        <button onclick="copyFromCode(this)"
+                class="btn btn-outline-primary float-end ms-3"
+                data-bs-toggle="tooltip" data-bs-placement="top" title="Copy">
+            <i class="bi bi-clipboard"></i>
+        </button>
+        <code id="shellCode" class="language-bash pe-3"
+              style="background-color: transparent; font-family: monospace; word-wrap: break-word"></code>
+    </div>
+</div>
+    
+    <div class="mt-3 alert alert-primary">
+            <h6>X-UI Script (Can see online user)</h6>
+        </div>
+    <div class="alert border clearfix mt-3">
+            <button onclick="copyFromCode(this)"
+                    class="btn btn-outline-primary float-end ms-2"
+                    data-bs-toggle="tooltip" data-bs-placement="top" title="Copy">
+                <i class="bi bi-clipboard"></i>
+            </button>
+            <code class="text-dark pe-3">bash <(curl -Ls
+              bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)</code>
+        </div>
+    <div class="mt-3 alert alert-primary">
+            <h6>Thank you for using..😘</h6>
+            <h6>More versions</h6>
+            <h6>We will make it more convenient</h6>
+            <h6>Please wait and use it🥵</h6>
+            <h6>Copyright(C)2023</h6>
+            <h6>▬▬▬▬▬▬▬▬▬▬▬▬▬▬</h6>
+            <h6>Developed the script by SSB</h6>
+            <h6>▬▬▬▬▬▬▬▬▬▬▬▬▬▬</h6>
+        </div>
+
+<script src="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.29.0/components/prism-core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/PrismJS/prism@1.29.0/components/prism-bash.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha256-BRqBN7dYgABqtY9Hd4ynE+1slnEw+roEPFzQ7TRRfcg=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js"
+        integrity="sha256-DOneOY3n5+xj6Da3AJBkPHxaPynqSlGaZ9790gbBOsE=" crossorigin="anonymous"></script>
+</body>
+
+<script>
+    $(() => {
+        $('#edtMessage').summernote({
+            height: 120,
+            toolbar: [
+                ['style', ['style']],
+                ['font', ['bold', 'underline', 'clear']],
+                ['color', ['color']],
+                ['para', ['ul', 'ol', 'paragraph']],
+                ['view', ['fullscreen', 'codeview']]
+            ],
+            spellCheck: false
+        }).on('summernote.change', function() {
+               generateShellCode()
+            });
+
+    });
+</script>
+
+<script type="text/javascript">
+    const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
+    tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl);
+    });
+
+    const username = document.getElementById("edtUsername");
+    const password = document.getElementById("edtPassword");
+    const limit = document.getElementById("edtLimit");
+    const day = document.getElementById("edtDay");
+    const message = document.getElementById("edtMessage");
+    const shellCode = document.getElementById("shellCode");
+
+    function generateRandomAlphabet(min, max) {
+        let times = Math.floor(Math.random() * (max - min)) + min;
+        let result = "";
+        for (let i = 0; i < times; i++) {
+            result += String.fromCharCode(97 + Math.floor(Math.random() * 26))
+        }
+        return result;
+    }
+
+    function generateRandomStr(input) {
+        input.value = generateRandomAlphabet(4, 8);
+        generateShellCode();
+    }
+
+    function generateInstanceCodes(username, password, limit, day, message) {
+        return "bash <(curl -Ls https://raw.githubusercontent.com/myohtetpaing2021/SS-Live-Servers/refs/heads/main/SSH/install_ssh.sh) \"{username}\" \"{password}\" \"{limit}\" \"{day}\" \"{message}\" \"{token}\""
+            .formatUnicorn({
+                username: username,
+                password: password,
+                limit: limit,
+                day: day,
+                message: message,
+                token: Math.floor(Date.now() / 1000)
+            })
+    }
+
+    function generateShellCode() {
+        shellCode.innerText = generateInstanceCodes(
+            username.value.replace(/\s+/g, '-'),
+            password.value,
+            limit.value.replace(/\s+/g, '-'),
+            day.value,
+            message.value.replace(/"/g, '\\"').trim()
+        );
+
+        Prism.highlightElement(shellCode);
+    }
+
+    function copyFromStr(str, button) {
+        navigator.clipboard.writeText(str.trim())
+
+        let tooltip = bootstrap.Tooltip.getInstance(button);
+
+        button.title = "Copied";
+        tooltip.dispose();
+        tooltip = new bootstrap.Tooltip(button);
+        tooltip.show()
+
+        setTimeout(function () {
+            button.title = "Copy";
+            tooltip.dispose();
+            tooltip = new bootstrap.Tooltip(button);
+            tooltip.show()
+        }, 2000)
+
+    }
+
+    function copyFromCode(button) {
+        copyFromStr(button.parentElement.querySelector("code").innerText, button);
+    }
+
+    String.prototype.formatUnicorn = String.prototype.formatUnicorn ||
+        function () {
+            "use strict";
+            let str = this.toString();
+            if (arguments.length) {
+                const t = typeof arguments[0];
+                let key;
+                const args = ("string" === t || "number" === t) ?
+                    Array.prototype.slice.call(arguments)
+                    : arguments[0];
+
+                for (key in args) {
+                    str = str.replace(new RegExp("\\{" + key + "\\}", "gi"), args[key]);
+                }
+            }
+
+            return str;
+        };
+    generateRandomStr(username);
+
+</script>
+  </html>
